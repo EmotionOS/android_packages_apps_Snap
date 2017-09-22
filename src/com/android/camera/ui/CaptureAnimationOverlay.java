@@ -39,11 +39,11 @@ public class CaptureAnimationOverlay extends View {
     private final static int FLASH_COLOR = Color.WHITE;
 
     private static final float FLASH_MAX_ALPHA = 0.85f;
-    private static final long FLASH_FULL_DURATION_MS = 300;
-    private static final long FLASH_DECREASE_DURATION_MS = 600;
+    private static final long FLASH_FULL_DURATION_MS = 65;
+    private static final long FLASH_DECREASE_DURATION_MS = 150;
     private static final float SHORT_FLASH_MAX_ALPHA = 0.75f;
-    private static final long SHORT_FLASH_FULL_DURATION_MS = 150;
-    private static final long SHORT_FLASH_DECREASE_DURATION_MS = 300;
+    private static final long SHORT_FLASH_FULL_DURATION_MS = 34;
+    private static final long SHORT_FLASH_DECREASE_DURATION_MS = 100;
 
     private AnimatorSet mFlashAnimation;
     private final RectF mPreviewArea = new RectF();
